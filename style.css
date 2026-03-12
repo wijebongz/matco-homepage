@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+header h1 {
+    border: 2px solid #333;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    background: black;
+}
+ 
+h1 {
+    border: 2px solid #333;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    background: pink;
+}
+ 
+.container {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    padding: 40px;
+    border: 2px solid #333;
+    background:white;
+}
+
+.card {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 150px;
+    height: 80px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:seagreen;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Hover effect to make it feel interactive */
+.card:hover {
+    background-color: whitesmoke;
+    transform: scale(1.05);
+}
